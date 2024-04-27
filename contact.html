@@ -1,0 +1,103 @@
+<!-- === basic html layout ===-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="designer" author="Andrew Harper" />
+    <!-- ========== bootstrap min css  ========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- ========== local css ========== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- ========== google fonts ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ========== Start block Section ========== -->
+    <style>
+      body {
+        background-image: url(images/misty.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+    <!-- ========== End block Section ========== -->
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ========== Start  nav Section ========== -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Scorpion Art</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== End  nav  ========== -->
+
+    <!-- ========== Start header ========== -->
+    <div class="logo">
+      <center>
+        <img src="images/andy.png" alt="logo" width="450" />
+        <h1>Welcome to my World of Paintings</h1>
+      </center>
+    </div>
+    <!-- ========== End header ========== -->
+
+    <center>
+      <p>
+        To purchase a painting or make an enquiry please use our web page link
+        below and scrooll down to the contactform at the bottom and we will
+        contact you at earliest possible time.
+      </p>
+      <h4>THANK YOU FOR YOUR INTEREST</h4>
+    </center>
+    <center>
+      <a class="web" href="http://pixrestore.co.uk">pixrestore.co.uk</a>
+    </center>
+    <br /><br />
+
+    <!-- ========== bootstrap JS bundle ========== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
